@@ -1,0 +1,220 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dayflow Design System - "Every Workday, Perfectly Aligned"
+   Color palette: Soft indigo, mint green, calm grays
+   Style: Modern, minimalist, professional enterprise
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* Background & Surfaces */
+    --background: 220 20% 97%;
+    --foreground: 224 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 30% 15%;
+
+    /* Primary - Soft Indigo Blue */
+    --primary: 224 76% 48%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Light Blue Gray */
+    --secondary: 220 25% 94%;
+    --secondary-foreground: 224 30% 25%;
+
+    /* Muted */
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 15% 50%;
+
+    /* Accent - Mint Green */
+    --accent: 158 64% 52%;
+    --accent-foreground: 158 64% 15%;
+
+    /* Status Colors */
+    --success: 158 64% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 38 92% 15%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Info - Soft Blue */
+    --info: 200 80% 55%;
+    --info-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 224 76% 48%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar */
+    --sidebar-background: 224 30% 12%;
+    --sidebar-foreground: 220 20% 85%;
+    --sidebar-primary: 224 76% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 224 30% 18%;
+    --sidebar-accent-foreground: 220 20% 95%;
+    --sidebar-border: 224 30% 20%;
+    --sidebar-ring: 224 76% 55%;
+
+    /* Custom Dayflow tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(224 76% 48%), hsl(224 76% 58%));
+    --gradient-accent: linear-gradient(135deg, hsl(158 64% 45%), hsl(158 64% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(224 30% 12%), hsl(224 40% 22%));
+    
+    --shadow-soft: 0 2px 8px -2px hsl(224 30% 15% / 0.08);
+    --shadow-card: 0 4px 16px -4px hsl(224 30% 15% / 0.1);
+    --shadow-elevated: 0 8px 32px -8px hsl(224 30% 15% / 0.15);
+    --shadow-glow: 0 0 24px hsl(224 76% 48% / 0.25);
+  }
+
+  .dark {
+    --background: 224 30% 8%;
+    --foreground: 220 20% 95%;
+
+    --card: 224 30% 12%;
+    --card-foreground: 220 20% 95%;
+
+    --popover: 224 30% 12%;
+    --popover-foreground: 220 20% 95%;
+
+    --primary: 224 76% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 224 30% 18%;
+    --secondary-foreground: 220 20% 90%;
+
+    --muted: 224 30% 15%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: 158 64% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 224 30% 20%;
+    --input: 224 30% 20%;
+    --ring: 224 76% 55%;
+
+    --sidebar-background: 224 35% 6%;
+    --sidebar-foreground: 220 20% 85%;
+    --sidebar-primary: 224 76% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 224 30% 12%;
+    --sidebar-accent-foreground: 220 20% 95%;
+    --sidebar-border: 224 30% 15%;
+    --sidebar-ring: 224 76% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@layer components {
+  /* Dayflow specific component styles */
+  .dayflow-card {
+    @apply bg-card rounded-xl border border-border shadow-[var(--shadow-card)] transition-all duration-200;
+  }
+
+  .dayflow-card:hover {
+    @apply shadow-[var(--shadow-elevated)];
+  }
+
+  .dayflow-gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  .dayflow-input {
+    @apply h-11 rounded-lg border-border bg-background/50 focus:bg-background transition-colors;
+  }
+
+  .dayflow-timeline-dot {
+    @apply w-3 h-3 rounded-full ring-4 ring-background;
+  }
+
+  .dayflow-stat-card {
+    @apply relative overflow-hidden rounded-xl p-5 transition-transform duration-200 hover:scale-[1.02];
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
