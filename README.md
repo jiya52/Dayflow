@@ -1,52 +1,155 @@
-## Project Name
-Dayflow - Human Resource Management System
+<div align="center">
+🌿 Dayflow
+Every workday, perfectly aligned.
 
-## Problem Statement
-To define the functional and non-functional requirements
-of a Human Resource Management System HRMS . The system aims to digitize and
-streamline core HR operations such as employee onboarding, profile management,
-attendance tracking, leave management, payroll visibility, and approval workflows for
-admins and HR officers.
+A modern Human Resource Management System (HRMS)
+built to simplify people operations with clarity and flow.
 
-## Solution Overview
-The HRMS will provide:
-● Secure authentication (Sign Up / Sign In)
-● Role-based access (Admin vs Employee)
-● Employee profile management
-● Attendance tracking (daily/weekly view)
-● Leave and time-off management
-● Approval workflows for HR/Admin
+<br/>
 
-## What technologies are used for this project?
+Minimal • Professional • Role-based • Intuitive
 
-This project is built with:
+</div>
+Why Dayflow?
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Managing people should feel organized, not overwhelming.
 
-## Features
+Most HR systems are:
 
-1. Authentication & Security
-2. Role-Based Dashboards
-3. Employee Profile Management
-4. Attendance Management
-5. Leave & Time-Off Management
-6. Payroll & Salary Visibility
-7. Reports & Analytics
-8. User Experience & Interface
+fragmented
 
-## How to run locally ?
+outdated
 
-You just have to downlaod all this files and run the command called "npm install" in vs code terminal. once, the npm install command successfully completed its execution then you have to run the "npm run dev" command and you will see the local link which will redirect you to dayflow web app.
+difficult to use
 
-## Team Members
-1. Prem Parmar
-2. Jiya Singh
-3. Maitri Chavan
+unclear for employees
 
-## Hackathon Name
+Dayflow reimagines HR as a single, calm, and structured experience.
 
-ODOO X GCET Hackathon'26
+What Dayflow Solves
+
+Centralizes employee data
+
+Simplifies attendance tracking
+
+Streamlines leave approvals
+
+Improves payroll transparency
+
+Creates a better daily experience for teams
+
+One platform. One workflow. Zero confusion.
+
+Core Experience
+Authentication
+
+Secure sign in / sign up
+
+Role-based access (Admin & Employee)
+
+Dashboards
+
+Admin
+
+Team overview
+
+Attendance insights
+
+Pending leave approvals
+
+Employee
+
+Attendance summary
+
+Leave status
+
+Salary visibility
+
+Attendance
+
+Daily check-in / check-out
+
+Break tracking
+
+Attendance history
+
+Leave Management
+
+Paid / Sick / Unpaid leaves
+
+Approval & rejection workflow
+
+Real-time status updates
+
+Payroll
+
+Salary breakdown
+
+Net salary calculation
+
+Read-only employee access
+
+Profile
+
+Personal details
+
+Role & department info
+
+Clean, readable layout
+
+Design Principles
+
+Minimal interface – no clutter
+
+Professional tone – enterprise ready
+
+Fast navigation – fewer clicks
+
+Clear hierarchy – information first
+
+If it doesn’t add value, it doesn’t exist.
+
+Tech Stack
+
+React + TypeScript
+
+Vite
+
+Tailwind CSS
+
+shadcn/ui
+
+Built for performance, scalability, and clean code.
+
+Run Locally
+npm install
+npm run dev
+
+
+Open the local URL shown in the terminal
+(usually http://localhost:5173)
+
+Demo Access
+
+Employee
+john.doe@dayflow.com / password123
+
+Admin
+sarah.admin@dayflow.com / admin123
+
+Team
+
+Prem Parmar
+
+Jiya Singh
+
+Maitri Chavan
+
+Hackathon
+
+ODOO × GCET Hackathon 2026
+
+<div align="center">
+Dayflow is not built to impress —
+it’s built to feel right.
+</div>
