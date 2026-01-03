@@ -3,8 +3,8 @@
 # 🌿 Dayflow  
 ### *Every workday, perfectly aligned.*
 
-A modern **Human Resource Management System (HRMS)**  
-built for clarity, efficiency, and calm workflows.
+A modern, role-based **Human Resource Management System (HRMS)**  
+crafted for clarity, flow, and simplicity.
 
 <br/>
 
@@ -12,6 +12,7 @@ built for clarity, efficiency, and calm workflows.
 <img src="https://img.shields.io/badge/Frontend-React-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-TypeScript-3178c6?style=flat-square"/>
 <img src="https://img.shields.io/badge/UI-Minimal%20SaaS-black?style=flat-square"/>
+<img src="https://img.shields.io/badge/Hackathon-ODOO%20×%20GCET%202026-purple?style=flat-square"/>
 
 <br/><br/>
 
@@ -21,67 +22,70 @@ built for clarity, efficiency, and calm workflows.
 
 ---
 
-## ✨ Overview
+## ✨ What is Dayflow?
 
 **Dayflow** is a clean and intuitive HRMS designed to simplify  
-daily people operations for both **employees** and **admins**.
+day-to-day HR operations for **employees** and **admins**.
 
 It focuses on:
-- simplicity over complexity  
-- clarity over clutter  
-- usability over overload  
+- calm user experience  
+- clear workflows  
+- zero unnecessary complexity  
 
 > One platform. One flow. Everything aligned.
 
 ---
 
-## 🧠 Problem
+## 🧠 The Problem
 
-Traditional HR systems are often:
+Most HR systems today are:
 
-- Fragmented and outdated  
-- Difficult for employees to understand  
-- Time-consuming for admins  
-- Lacking transparency  
+❌ fragmented  
+❌ difficult to navigate  
+❌ admin-heavy  
+❌ unclear for employees  
 
-This leads to inefficiency, confusion, and poor user experience.
-
----
-
-## 💡 Solution
-
-Dayflow centralizes all core HR operations into a **single, calm interface**  
-with clearly separated roles and smooth workflows.
-
-Designed to feel **easy on day one**.
+This results in:
+- poor transparency  
+- manual effort  
+- low productivity  
 
 ---
 
-## 🧩 Features
+## 💡 The Solution — *Dayflow*
+
+Dayflow centralizes core HR operations into a **single, minimal interface**  
+with **clear role separation** and **smooth interactions**.
+
+Designed to feel **simple on first use**.
+
+---
+
+## 🧩 Core Features
 
 ### 🔐 Authentication
-- Secure Sign Up & Sign In  
-- Role-based access (Admin / Employee)
+- Secure Sign In / Sign Up  
+- Role-based access (Admin & Employee)
 
 ### 📊 Dashboards
-**Admin**
+**Admin Dashboard**
 - Employee overview  
 - Attendance insights  
 - Pending leave approvals  
 
-**Employee**
+**Employee Dashboard**
 - Attendance summary  
 - Leave tracking  
 - Payroll visibility  
 
-### 🕒 Attendance
+### 🕒 Attendance Management
 - Daily check-in / check-out  
 - Break tracking  
 - Attendance history  
 
 ### 🗓 Leave Management
 - Paid / Sick / Unpaid leaves  
-- Approval & rejection flow  
+- Approval & rejection workflow  
 - Real-time status updates  
 
 ### 💰 Payroll
@@ -92,33 +96,33 @@ Designed to feel **easy on day one**.
 ### 👤 Profile
 - Personal & job details  
 - Role and department info  
-- Clean profile view  
+- Clean profile layout  
 
 ---
 
 ## 🎨 Design Philosophy
 
 - Minimal, distraction-free UI  
-- Enterprise-grade layout  
+- Enterprise-grade look  
 - Clear information hierarchy  
-- Fast navigation  
+- Fewer clicks, faster flow  
 
-> If it doesn’t add value, it’s removed.
+> If it doesn’t add value, it doesn’t exist.
 
 ---
 
 ## 🛠 Tech Stack
 
 | Layer | Technology |
-|------|-----------|
-| Frontend | React + TypeScript |
-| Build Tool | Vite |
-| Styling | Tailwind CSS |
-| UI System | shadcn/ui |
+|-----|-----------|
+Frontend | React + TypeScript  
+Build Tool | Vite  
+Styling | Tailwind CSS  
+UI System | shadcn/ui  
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Run Locally
 
 ```bash
 npm install
@@ -127,19 +131,19 @@ Open the local URL shown in terminal
 (usually http://localhost:5173)
 
 🔑 Demo Credentials
-Employee
+👤 Employee
 
 css
 Copy code
 john.doe@dayflow.com
 password123
-Admin
+👩‍💼 Admin
 
 css
 Copy code
 sarah.admin@dayflow.com
 admin123
-👥 Team
+👥 Team Dayflow
 Prem Parmar
 
 Jiya Singh
@@ -150,16 +154,16 @@ Maitri Chavan
 ODOO × GCET Hackathon 2026
 
 <details> <summary><strong>📌 Notes for Judges</strong></summary>
-Uses mock data for demo purposes
-
 Fully functional role-based flows
 
 Clean frontend architecture
 
-Backend-ready for Node.js + MySQL
+Mock data used for demo
+
+Backend-ready (Node.js + MySQL)
 
 </details>
-<details> <summary><strong>🔮 Future Enhancements</strong></summary>
+<details> <summary><strong>🔮 Future Scope</strong></summary>
 Real backend integration
 
 Email notifications
@@ -170,6 +174,6 @@ Organization-level settings
 
 </details>
 <div align="center">
-🌿 Dayflow isn’t loud.
+🌿 Dayflow is not loud.
 It’s calm, clear, and confident.
 </div> ```
