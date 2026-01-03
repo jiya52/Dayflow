@@ -1,155 +1,175 @@
 <div align="center">
-🌿 Dayflow
-Every workday, perfectly aligned.
 
-A modern Human Resource Management System (HRMS)
-built to simplify people operations with clarity and flow.
+# 🌿 Dayflow  
+### *Every workday, perfectly aligned.*
+
+A modern **Human Resource Management System (HRMS)**  
+built for clarity, efficiency, and calm workflows.
 
 <br/>
 
-Minimal • Professional • Role-based • Intuitive
+<img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
+<img src="https://img.shields.io/badge/Frontend-React-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Language-TypeScript-3178c6?style=flat-square"/>
+<img src="https://img.shields.io/badge/UI-Minimal%20SaaS-black?style=flat-square"/>
+
+<br/><br/>
+
+**Minimal • Professional • Role-Based • Scalable**
 
 </div>
-Why Dayflow?
 
-Managing people should feel organized, not overwhelming.
+---
 
-Most HR systems are:
+## ✨ Overview
 
-fragmented
+**Dayflow** is a clean and intuitive HRMS designed to simplify  
+daily people operations for both **employees** and **admins**.
 
-outdated
+It focuses on:
+- simplicity over complexity  
+- clarity over clutter  
+- usability over overload  
 
-difficult to use
+> One platform. One flow. Everything aligned.
 
-unclear for employees
+---
 
-Dayflow reimagines HR as a single, calm, and structured experience.
+## 🧠 Problem
 
-What Dayflow Solves
+Traditional HR systems are often:
 
-Centralizes employee data
+- Fragmented and outdated  
+- Difficult for employees to understand  
+- Time-consuming for admins  
+- Lacking transparency  
 
-Simplifies attendance tracking
+This leads to inefficiency, confusion, and poor user experience.
 
-Streamlines leave approvals
+---
 
-Improves payroll transparency
+## 💡 Solution
 
-Creates a better daily experience for teams
+Dayflow centralizes all core HR operations into a **single, calm interface**  
+with clearly separated roles and smooth workflows.
 
-One platform. One workflow. Zero confusion.
+Designed to feel **easy on day one**.
 
-Core Experience
-Authentication
+---
 
-Secure sign in / sign up
+## 🧩 Features
 
-Role-based access (Admin & Employee)
+### 🔐 Authentication
+- Secure Sign Up & Sign In  
+- Role-based access (Admin / Employee)
 
-Dashboards
+### 📊 Dashboards
+**Admin**
+- Employee overview  
+- Attendance insights  
+- Pending leave approvals  
 
-Admin
+**Employee**
+- Attendance summary  
+- Leave tracking  
+- Payroll visibility  
 
-Team overview
+### 🕒 Attendance
+- Daily check-in / check-out  
+- Break tracking  
+- Attendance history  
 
-Attendance insights
+### 🗓 Leave Management
+- Paid / Sick / Unpaid leaves  
+- Approval & rejection flow  
+- Real-time status updates  
 
-Pending leave approvals
+### 💰 Payroll
+- Salary breakdown  
+- Net salary calculation  
+- Read-only employee access  
 
-Employee
+### 👤 Profile
+- Personal & job details  
+- Role and department info  
+- Clean profile view  
 
-Attendance summary
+---
 
-Leave status
+## 🎨 Design Philosophy
 
-Salary visibility
+- Minimal, distraction-free UI  
+- Enterprise-grade layout  
+- Clear information hierarchy  
+- Fast navigation  
 
-Attendance
+> If it doesn’t add value, it’s removed.
 
-Daily check-in / check-out
+---
 
-Break tracking
+## 🛠 Tech Stack
 
-Attendance history
+| Layer | Technology |
+|------|-----------|
+| Frontend | React + TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| UI System | shadcn/ui |
 
-Leave Management
+---
 
-Paid / Sick / Unpaid leaves
+## 🚀 Getting Started
 
-Approval & rejection workflow
-
-Real-time status updates
-
-Payroll
-
-Salary breakdown
-
-Net salary calculation
-
-Read-only employee access
-
-Profile
-
-Personal details
-
-Role & department info
-
-Clean, readable layout
-
-Design Principles
-
-Minimal interface – no clutter
-
-Professional tone – enterprise ready
-
-Fast navigation – fewer clicks
-
-Clear hierarchy – information first
-
-If it doesn’t add value, it doesn’t exist.
-
-Tech Stack
-
-React + TypeScript
-
-Vite
-
-Tailwind CSS
-
-shadcn/ui
-
-Built for performance, scalability, and clean code.
-
-Run Locally
+```bash
 npm install
 npm run dev
-
-
-Open the local URL shown in the terminal
+Open the local URL shown in terminal
 (usually http://localhost:5173)
 
-Demo Access
-
+🔑 Demo Credentials
 Employee
-john.doe@dayflow.com / password123
 
+css
+Copy code
+john.doe@dayflow.com
+password123
 Admin
-sarah.admin@dayflow.com / admin123
 
-Team
-
+css
+Copy code
+sarah.admin@dayflow.com
+admin123
+👥 Team
 Prem Parmar
 
 Jiya Singh
 
 Maitri Chavan
 
-Hackathon
-
+🏆 Hackathon
 ODOO × GCET Hackathon 2026
 
+<details> <summary><strong>📌 Notes for Judges</strong></summary>
+Uses mock data for demo purposes
+
+Fully functional role-based flows
+
+Clean frontend architecture
+
+Backend-ready for Node.js + MySQL
+
+</details>
+<details> <summary><strong>🔮 Future Enhancements</strong></summary>
+Real backend integration
+
+Email notifications
+
+Analytics & reports
+
+Organization-level settings
+
+</details>
 <div align="center">
-Dayflow is not built to impress —
-it’s built to feel right.
-</div>
+🌿 Dayflow isn’t loud.
+It’s calm, clear, and confident.
+</div> ```
